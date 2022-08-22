@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*bosluklarin tasarimi bozmamasi icin*/
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 24px;
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+  color: grey;
+  text-align: justify; /*iki yana hizala*/
+}
+hr {
+  width: 100%;
+  color: grey;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+img {
+  max-width: 100%; /*responsive icin*/
+  height: auto;
+}
+li {
+  list-style-type: none;
+}
+form {
+  max-width: 100%;
+  margin: 30px 0;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 2px solid rgb(211, 195, 208);
+  border-radius: 5px;
+  box-shadow: none;
+}
+/*---------------------------------------------*/
+.container {
+  width: 80%;
+  margin: auto; /*ortalama*/
+}
+.text-left {
+  text-align: left !important; /* önceliklendirme*/
+}
+.text-right {
+  text-align: right !important;
+}
+.buton {
+  padding: 15px 28px;
+  outline: none;
+  border: 2px solid rgb(211, 195, 208);
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.buton:hover {
+  transition-duration: 1.8s;
+  background-color: rgb(211, 195, 208);
+}
+/*--------------------------header-----------------------------*/
+#header {
+  height: 80vh; /*her zaman %80i al*/
+  
+}
+.header-photo{
+ right: 0;
+ width: 950px;
+ margin-top: 150px;
+ position:absolute;
+}
+#header .logo {
+  width: 150px;
+}
+.header-text {
+  max-width: 400px;
+  margin-top: 150px;
+}
+/*------------------nav-------------------------------------*/
+
+#nav {
+  width: 250px;
+  height: 100vh; /*responsive 100%*/
+  position: fixed; /*sabit kalması için*/
+  right: -250px; /*javada mudahale edilcek*/
+  top: 0;
+  background-color: rgb(211, 195, 208);
+  overflow: hidden; /*tasma olmamasi icin*/
+  transition: 0.5s;
+}
+#nav img {
+  width: 60px;
+}
+
+#nav .ul li {
+  margin: 20px;
+}
+#nav .ul li:first {
+  margin-top: 45px;
+}
+#nav .ul li a {
+  color: white;
+}
+#nav .ul li a:hover {
+  text-decoration: underline;
+  color: rgb(201, 157, 243);
+}
+/*-----------------menu bar--------------------------------------*/
+
+.menu-bar {
+  position: fixed;
+  right: 40px;
+  top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*-----------------about me--------------------------------------*/
+
+.about-me .text-left img{
+ width: 700px;
+ margin-top: 150px;
+}
+#about-me-section{
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-me-text, .about-me-photo{
+  flex-basis: 50%;
+
+}
+.about-me-text{
+  max-width: 400px;
+  margin-left: 420px;
+}
+/*-----------------contact--------------------------------------*/
+.contact{
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /*varsayilan olarak esnek ogeler tek bir satira sigdirma*/
+
+}
+textarea{
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: -12px;
+  width: 400px;
+  border: 1px solid rgb(211, 195, 208);
+  border-radius: 5px;
+}
+
+
