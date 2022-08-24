@@ -1,0 +1,63 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+    max-width: 100%;
+    margin: 150px;
+}
+.head{
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.left-side{
+    margin: 10px;
+    max-width: 40%;
+    height: auto;
+    padding-left: 40px;
+    margin-top: 25px;
+    
+   
+}
+.right-side{
+    margin-top: -670px;
+    margin-right: 10px;
+    max-width: 40%;
+    height: auto;
+    float: right;
+    text-align: right;
+    padding: 40px;
+
+   
+}
+p{
+    line-height: 40px;
+}
+h3{
+    font-weight: 100;
+    font-size: medium;
+}
+li{
+    list-style-type:  none;
+}
+.head img{
+    width: 170px;
+    margin-left: 40px;
+}
+.who-am-i{
+    float: left;
+    width: 75%;
+    margin-top: -150px;
+    margin-left: 300px;
+}
+.mail-tel{
+    float: right;
+    margin-top: -350px;
+    margin-right: 60px;
+}
+#name{
+ float: right;
+ margin-top: -250px;
+ margin-right: 1100px;
+}
